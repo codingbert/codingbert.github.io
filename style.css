@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Icontainer{
+text-align: center;
+}
+h3{
+ -webkit-animation: infinite;
+}
+
+
+body{
+    
+    
+    background: linear-gradient(to right, rgb(239, 235, 235) ,rgb(118, 118, 116))  ;
+}  
+.row{
+   
+    background-size: cover;
+    border-radius: 25px;
+    width: auto;
+}
+.BG{
+    background-image: url("images/row-background.jpg");
+}
+img{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+.home{
+    font-size: 2em;
+}
+.Logo{
+
+    margin-left: 50px;
+    margin-right: 70px;
+    height: 200px;
+    width: 100%;
+}
+
+
+input{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background: rgb(91, 183, 213);
+    border: 1px solid;
+    color: black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.registration{
+    margin-top: 0em;
+}
+.slider-frame{
+    overflow: hidden;
+    
+   
+}
+@-webkit-keyframes slide_animation{
+    0% {left:0PX;}
+    10%{left:0px;}
+    20%{left:1200px;}
+    30%{left:1200px;}
+    40%{left:2400px;}
+    50%{left:2400px;}
+    60%{left:1200px;}
+    70%{left:2400px;}
+    80%{left:0px;}
+    90%{left:0px;}
+    100%{left:0px;}
+}
+.slide-images{
+   
+    margin: 0 0 0 -2350px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.img-container{
+    width: 383.16px;
+    height: 574.74px;
+    position: relative;
+    float: right;
+   
+}
